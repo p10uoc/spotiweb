@@ -1,0 +1,15 @@
+<h2 align='center'>Listado de canciones</h2>
+<main>
+	<ul class="canciones">
+	
+		 <li *ngFor="let cancion of canciones"
+    [class.selected]="cancion === selectedCancion"
+    (click)="onSelect(cancion)">
+    		<span class="badge" align='center'>{{cancion.name}}</span>
+    		<hr>
+  		</li>
+	</ul>
+
+<app-cancion-detalle  [cancion]="selectedCancion"></app-cancion-detalle>
+
+</main>

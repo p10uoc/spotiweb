@@ -1,0 +1,66 @@
+/* CancionesComponent's private CSS styles */
+.canciones {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 10px;
+    width: 15em;
+  }
+  .canciones li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  .caniones li:hover {
+    color: #2E2E2E;
+    background-color: #DDD;
+    left: .1em;
+  }
+  .canciones li.selected {
+    background-color: #088A29;
+    color: white;
+  }
+  .canciones li.selected:hover {
+    background-color: #088A29;
+    color: white;
+  }
+  .canciones .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#088A29;
+    line-height: 1em;
+    position: relative;
+    left: 1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: 3em;
+    border-radius: 4px 0 0 4px;
+  }
+  main {
+            column-count:4;
+            column-gap: 1em;
+      column-rule: 1px solid #bbb;
+      column-width: 140px;
+            
+        }
+h1 {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2 {
+  color:#088A29;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+h3 {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: lighter;
+}
